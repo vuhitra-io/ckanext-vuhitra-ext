@@ -1,0 +1,14 @@
+# vuhitra_ext-js:
+#   filter: rjsmin
+#   output: ckanext-vuhitra_ext/%(version)s-vuhitra_ext.js
+#   contents:
+#     - js/vuhitra_ext.js
+#   extra:
+#     preload:
+#       - base/main
+
+# vuhitra_ext-css:
+#   filter: cssrewrite
+#   output: ckanext-vuhitra_ext/%(version)s-vuhitra_ext.css
+#   contents:
+#     - css/vuhitra_ext.css

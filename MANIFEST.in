@@ -1,0 +1,5 @@
+include README.rst
+include LICENSE
+include requirements.txt
+recursive-include ckanext/vuhitra_ext *.html *.json *.js *.less *.css *.mo *.yml
+recursive-include ckanext/vuhitra_ext/migration *.ini *.py *.mako
